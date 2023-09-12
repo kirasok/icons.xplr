@@ -76,14 +76,14 @@ function setup()
   }
 
   -- nnn https://github.com/jarun/nnn/blob/master/src/icons-nerdfont.h
-  xplr.config.node_types.special["Desktop"] = { meta = { icon = "󰇄" } }
-  xplr.config.node_types.special["Documents"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Downloads"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Music"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Pictures"] = { meta = { icon = "" } }
+  xplr.config.node_types.special["Desktop"] = { meta = { icon = blue "󰇄" } }
+  xplr.config.node_types.special["Documents"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Downloads"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Music"] = { meta = { icon = blue "" } }
+  xplr.config.node_types.special["Pictures"] = { meta = { icon = blue "" } }
   -- xplr.config.node_types.special["Public"] = { meta = { icon = "" } }
-  xplr.config.node_types.special["Templates"] = { meta = { icon = "󰴊" } }
-  xplr.config.node_types.special["Videos"] = { meta = { icon = "󰕧" } }
+  xplr.config.node_types.special["Templates"] = { meta = { icon = blue "󰴊" } }
+  xplr.config.node_types.special["Videos"] = { meta = { icon = blue "󰕧" } }
 
   -- https://github.com/kyazdani42/nvim-web-devicons/blob/master/README.md
   xplr.config.node_types.special["Gemfile"] = { meta = { icon = "" } }
@@ -275,11 +275,11 @@ function setup()
   xplr.config.node_types.extension.toml = { meta = { icon = white "" } }
   xplr.config.node_types.extension.tres = { meta = { icon = "" } }
   xplr.config.node_types.extension.ts = { meta = { icon = "" } }
-  xplr.config.node_types.extension.tscn = { meta = { icon = "" } }
+  xplr.config.node_types.extension.tscn = { meta = { icon = "󱛿" } }
   xplr.config.node_types.extension.tsx = { meta = { icon = "" } }
   xplr.config.node_types.extension.twig = { meta = { icon = "" } }
   xplr.config.node_types.extension.vim = { meta = { icon = "" } }
-  xplr.config.node_types.extension.vue = { meta = { icon = "﵂" } }
+  xplr.config.node_types.extension.vue = { meta = { icon = "󰡄" } }
   xplr.config.node_types.extension.webmanifest = { meta = { icon = "" } }
   xplr.config.node_types.extension.webpack = { meta = { icon = "󰜫" } }
   xplr.config.node_types.extension.xcplayground = { meta = { icon = "" } }
