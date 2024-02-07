@@ -153,7 +153,9 @@ function setup()
   xplr.config.node_types.extension.db = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.desktop = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.diff = { meta = { icon = ' ' } }
-  xplr.config.node_types.extension.doc = { meta = { icon = ' ' } }
+  xplr.config.node_types.extension.doc = { meta = { icon = blue ' ' } }
+  xplr.config.node_types.extension.docx = { meta = { icon = blue ' ' } }
+  xplr.config.node_types.extension.odt = { meta = { icon = blue ' ' } }
   xplr.config.node_types.extension.dockerfile = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.dropbox = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.dump = { meta = { icon = ' ' } }
@@ -220,7 +222,9 @@ function setup()
   xplr.config.node_types.extension.pl = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.pm = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.pp = { meta = { icon = ' ' } }
-  xplr.config.node_types.extension.ppt = { meta = { icon = ' ' } }
+  xplr.config.node_types.extension.ppt = { meta = { icon = red ' ' } }
+  xplr.config.node_types.extension.pptx = { meta = { icon = red ' ' } }
+  xplr.config.node_types.extension.odp = { meta = { icon = red ' ' } }
   xplr.config.node_types.extension.procfile = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.ps1 = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.psb = { meta = { icon = ' ' } }
@@ -264,7 +268,9 @@ function setup()
   xplr.config.node_types.extension.webmanifest = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.webpack = { meta = { icon = '󰜫 ' } }
   xplr.config.node_types.extension.xcplayground = { meta = { icon = ' ' } }
-  xplr.config.node_types.extension.xls = { meta = { icon = ' ' } }
+  xplr.config.node_types.extension.xls = { meta = { icon = green ' ' } }
+  xplr.config.node_types.extension.xlsx = { meta = { icon = green ' ' } }
+  xplr.config.node_types.extension.ods = { meta = { icon = green ' ' } }
   xplr.config.node_types.extension.xml = { meta = { icon = '󰗀 ' } }
   xplr.config.node_types.extension.xul = { meta = { icon = ' ' } }
   xplr.config.node_types.extension.yaml = { meta = { icon = ' ' } }
